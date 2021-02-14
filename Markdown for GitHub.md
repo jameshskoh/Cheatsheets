@@ -1,5 +1,7 @@
 # Cheatsheet: Markdown for GitHub
 
+#### Reference: [Mastering Markdown - GitHub Guides](https://guides.github.com/features/mastering-markdown/)
+
 ## Character Style
 
 ```
@@ -37,63 +39,76 @@ _Combined **text**_
 ## Lists
 
 ### Unordered List
-
+```
 * Item 1
 * Item 2
   * Subitem 2a
   * Subitem 2b
+```
 
 ### Ordered List
-
+```
 1. Item 1
 2. Item 2
   3. Subitem 2a
 4. Item 3
+```
 
 ## Quotes
-
+```
 > Start quote after a right-angled bracket.
+```
 
 ## Inline Code
-
+```
 You can add any code `<div>` here.
+```
 
 ## Syntax Highlighting
-
-```javascript
+### Javascript
+```
+\```javascript
 function someFunction(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 }
+\```
 ```
 
-```python
+### Python
+```
+\```python
 def foo():
   if not bar:
     return True
+\```
 ```
 
 
 
 ## Task Lists
-
-- [x] @mentions, #refs, [links](https://www.123.com), complete item
-- [ ] imcomplete item
-
+```
+- [x] @mentions, #refs, [links](https://abc.xyz), complete item
+- [ ] incomplete item
+```
 
 
 ## Tables
 
-First Header | Second Header
+| First Header | Second Header |
+| ------------ | ------------- |
+| Content 1    | Content 2     |
+| Content 3    | Content 4     |
+| Content 5    | Content 6     |
 
------ | -----
-
-Content 1| Content 2
-
-Content 3 | Content 4
-
-
+```
+| First Header | Second Header |
+| ------------ | ------------- |
+| Content 1    | Content 2     |
+| Content 3    | Content 4     |
+| Content 5    | Content 6     |
+```
 
 ## GitHub Specific Functionalities
 
